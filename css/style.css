@@ -1,0 +1,241 @@
+html {
+  max-width: 1280px;
+  height: auto;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+}
+
+/* Header */
+.logo {
+  width: 500px;
+  display: inline;
+  margin: 20px;
+}
+
+header {
+display: inline-block;
+}
+
+.header-container {
+  background-color: #f4f2f3;
+  width: 1280px;
+}
+
+h1 {
+  font-size: 250%;
+  font-weight: 800;
+  color: #006a5b;
+  margin: 0;
+  display: inline;
+  padding: 0 50px;
+}
+
+/* Nav Menu */
+.topnav {
+  overflow: hidden;
+  background-color: #ef907c;
+}
+
+.topnav a {
+  font-weight: 600;
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #e74e3c;
+  color: white;
+}
+/* END Nav Menu */
+
+/* Body INDEX*/
+body {
+  width: 1280px;
+}
+
+h3 {
+  font-size: 180%;
+  font-weight: 600;
+  color: #e74e3c;
+  line-height:100%;
+  margin: 0;
+  display: inline;
+  padding: 0;
+}
+
+h4 {
+  font-size: 110%;
+  font-weight: 600;
+  color: #e74e3c;
+  line-height:100%;
+  margin: 0;
+  display: inline;
+  padding: 0 40px;
+}
+
+p {
+  width: 1200px;
+  color: #696868;
+}
+
+/* Check list col */
+ul{
+  list-style-type: none;
+}
+
+.fa-check-circle {
+  color: #006a5b;
+}
+
+.fa-circle {
+  color: #e74e3c;
+}
+
+.container {
+  width: 1280px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 0 0 20px 0;
+}
+
+.container .col {
+  width: 50%;
+  height: auto;
+  padding: 30px 0;
+}
+
+.pink {
+  background-color: #f8d4c5;
+}
+
+.cream {
+  background-color: #f8eac6;
+}
+/* END Check list col */
+
+/* END Body INDEX*/
+
+/* Body BIOGRAFIA */
+.biopic {
+  float: left;
+  padding: 0 20px 20px 0;
+}
+
+h2 {
+  font-size: 180%;
+  font-weight: 600;
+  color: #ef907c;
+  line-height:100%;
+  margin: 0;
+  display: block;
+  margin: 30px 0 0 0;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.read {
+  color: #006a5b;
+  background-color: #64baad;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin:10px 0 0 0;
+}
+
+.read:hover {
+  background-color: #83cbc4;
+}
+
+/* Nueva Seccion JS */
+#toggleBloque {
+  display: block;
+  cursor: pointer;
+}
+
+#leerTexto {
+  display: none;
+}
+/* FINAL Nueva Seccion JS */
+
+/* END Body BIOGRAFIA */
+
+/* Body GALERIA */
+.galeriabutton {
+  color: #006a5b;
+  background-color: #64baad;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin:10px 0 30px 0;
+}
+
+.category {
+  width: auto;
+}
+
+.galeriabutton:hover {
+  background-color: #aaf3ec;
+}
+
+.galeriabutton:hover {
+  background-color: #aaf3ec !important;
+}
+
+#galBranding, #galLesco {
+  display: none;
+}
+
+button#illustrationBtn {
+  background-color: #aaf3ec;
+}
+
+.category-img:hover {
+  transform: scale(1.05);
+}
+
+/* END Body GALERIA */
+
+/* Footer */
+footer {
+  background-color: #f4f2f3;
+  padding: 30px;
+  margin: 30px 0 0 0;
+}
+
+.iconos {
+  color: #e74e3c;
+  display: inline;
+  margin: 0;
+  padding: 0 0 0 10px;
+}
+
+.iconos a {
+  color: #e74e3c;
+}
+
+.iconos li {
+  display: inline;
+  padding: 0 10px 0 0;
+}
+
+.creditos {
+  display: inline;
+  color: #e74e3c;
+}
+/* END Footer */

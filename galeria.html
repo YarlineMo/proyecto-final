@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería | Proyecto Final</title>
+    <link rel="shortcut icon" href="images/favicon.ico ">
+    <!-- Montserrat Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<!-- END Montserrat Font -->
+<link rel="stylesheet" href="css/style.css">
+<script src="https://kit.fontawesome.com/c672bf2245.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header-container">
+        <div class="logo">
+            <img src="images/logo.jpg" alt="W@tt A Unit of Power by Texas Tech Costa Rica">
+            <h1>Introducción al Desarrollo Web</h1>
+        </div>
+        <div class="topnav">
+            <a class="active" href="index.html">Inicio</a>
+            <a href="biografia.html">Biografía</a>
+            <a href="galeria.html">Galería</a>
+          </div>
+    </header>
+
+    <main>
+    <div>
+        <section>
+        <h2>Galería</h2>
+    </div>
+
+    <div id="gallery">
+        <button id="illustrationBtn" onclick="toggleCategory('illu')" class="galeriabutton">Ilustraciones</button>
+        <button id="brandingBtn" onclick="toggleCategory('brand')" class="galeriabutton">Branding</button>
+        <button id="lescoBtn" onclick="toggleCategory('lesco')" class="galeriabutton">LESCO</button>
+        <div class="category" id="galIlustracion">
+            <img class="category-img" src="images/ilustraciones/over.jpg" alt="Overwhelmed">
+            <img class="category-img" src="images/ilustraciones/soul.jpg" alt="Soul movie character">
+            <img class="category-img" src="images/ilustraciones/together.jpg" alt="All Together by Sia">
+            <img class="category-img" src="images/ilustraciones/women.jpg" alt="Women day">
+        </div>
+        <div class="category" id="galBranding">
+            <img class="category-img" src="images/logos/deafm.jpg" alt="Deaf Makers">
+            <img class="category-img" src="images/logos/ikigai.jpg" alt="Ikigai">
+            <img class="category-img" src="images/logos/patita.jpg" alt="La Patita Feliz">
+            <img class="category-img" src="images/logos/tint.jpg" alt="Tint & Soul">
+        </div>
+        <div class="category" id="galLesco">
+            <img class="category-img" src="images/lesco/a.jpg" alt="Seña A">
+            <img class="category-img" src="images/lesco/b.jpg" alt="Seña B">
+            <img class="category-img" src="images/lesco/c.jpg" alt="Seña C">
+            <img class="category-img" src="images/lesco/d.jpg" alt="Seña D">
+        </div>
+    </div>
+        </section>
+    </main>
+    <script src="scripts/script.js"></script>
+    
+
+    <footer>
+        <p class="creditos"><small>&#169; 2021 Hecho por Yarline Moraga Morales | </small></p>
+        <ul class="iconos">
+            <small>
+                <li><a href="https://www.facebook.com/"  target="blank"><i class="fab fa-facebook-f"></i></a>
+                <li><a href="https://www.instagram.com/"  target="blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.twitter.com/"  target="blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/"  target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+            </small>
+        </ul>
+    </footer>
+    
+</body>
+</html>
